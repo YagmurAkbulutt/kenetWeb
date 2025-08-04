@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#grad1)"/>
+  
+  <!-- Profile picture placeholder -->
+  <g transform="translate(100, 80)">
+    <!-- Head and shoulders silhouette -->
+    <circle cx="100" cy="100" r="80" fill="#ecf0f1"/>
+    
+    <!-- Abstract face -->
+    <g transform="translate(60, 70)">
+      <!-- Eyes -->
+      <circle cx="30" cy="0" r="8" fill="#2c3e50"/>
+      <circle cx="70" cy="0" r="8" fill="#2c3e50"/>
+      
+      <!-- Mouth -->
+      <path d="M30,40 Q50,55 70,40" fill="none" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      
+      <!-- Nose -->
+      <path d="M50,15 L45,30 L55,30 Z" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Hair (longer, more feminine style) -->
+    <path d="M60,40 Q100,10 140,40 L150,100 Q130,90 100,100 Q70,90 50,100 Z" fill="#2c3e50"/>
+    <path d="M50,100 Q60,150 80,180 L50,180 Z" fill="#2c3e50"/>
+    <path d="M150,100 Q140,150 120,180 L150,180 Z" fill="#2c3e50"/>
+    
+    <!-- Shoulders/Blazer -->
+    <path d="M40,180 L70,150 L130,150 L160,180 L160,220 L40,220 Z" fill="#8e44ad"/>
+    
+    <!-- Shirt/blouse collar -->
+    <path d="M80,150 L100,170 L120,150 L115,180 L85,180 Z" fill="white"/>
+    
+    <!-- Necklace -->
+    <path d="M95,175 Q100,185 105,175" fill="none" stroke="#f1c40f" stroke-width="2"/>
+    <circle cx="100" cy="185" r="3" fill="#f1c40f"/>
+  </g>
+  
+  <!-- Name plate -->
+  <g transform="translate(200, 320)" text-anchor="middle">
+    <text font-family="Arial" font-size="24" fill="white" font-weight="bold">Sarah Johnson</text>
+    <text font-family="Arial" font-size="16" fill="white" y="25">Design Director</text>
+  </g>
+</svg>

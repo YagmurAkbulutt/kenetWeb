@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3498db;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#grad1)"/>
+  
+  <!-- Profile picture placeholder -->
+  <g transform="translate(100, 80)">
+    <!-- Head and shoulders silhouette -->
+    <circle cx="100" cy="100" r="80" fill="#ecf0f1"/>
+    
+    <!-- Abstract face -->
+    <g transform="translate(60, 70)">
+      <!-- Eyes -->
+      <circle cx="30" cy="0" r="8" fill="#2c3e50"/>
+      <circle cx="70" cy="0" r="8" fill="#2c3e50"/>
+      
+      <!-- Mouth -->
+      <path d="M30,40 Q50,50 70,40" fill="none" stroke="#2c3e50" stroke-width="3" stroke-linecap="round"/>
+      
+      <!-- Nose -->
+      <path d="M50,15 L45,30 L55,30 Z" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Hair (short with beard) -->
+    <path d="M60,50 Q100,20 140,50 L140,70 Q100,40 60,70 Z" fill="#7f8c8d"/>
+    
+    <!-- Beard -->
+    <path d="M60,90 Q100,130 140,90 L130,130 Q100,150 70,130 Z" fill="#7f8c8d"/>
+    
+    <!-- Glasses -->
+    <rect x="25" y="-5" width="20" height="15" rx="5" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    <rect x="65" y="-5" width="20" height="15" rx="5" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="45" y1="2" x2="65" y2="2" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- Shoulders/Casual jacket -->
+    <path d="M40,180 L70,150 L130,150 L160,180 L160,220 L40,220 Z" fill="#27ae60"/>
+    
+    <!-- T-shirt -->
+    <path d="M80,150 L100,160 L120,150 L115,180 L85,180 Z" fill="#ecf0f1"/>
+  </g>
+  
+  <!-- Name plate -->
+  <g transform="translate(200, 320)" text-anchor="middle">
+    <text font-family="Arial" font-size="24" fill="white" font-weight="bold">Michael Chen</text>
+    <text font-family="Arial" font-size="16" fill="white" y="25">Sustainability Lead</text>
+  </g>
+</svg>
